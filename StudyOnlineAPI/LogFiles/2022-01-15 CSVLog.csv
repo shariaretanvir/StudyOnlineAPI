@@ -1,0 +1,2 @@
+time,level,message,callsite,User
+2022-01-15 13:45:57.2851,Error,The configuration file 'DBInformation.json' was not found and is not optional. The physical path is 'D:\Akash Development\2021\dot net 5\StudyOnline\StudyOnlineAPI\StudyOnlineAPI\DBInformation.json'.,StudyOnlineAPI.Controllers.DemoController.getall,

@@ -1,0 +1,13 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  "ConnectionString": {
+    "SQL": "Server=DESKTOP-C01O214\\AKASHSQLEXPRESS;Database=TestDB;Trusted_Connection=True;"
+  }
+}

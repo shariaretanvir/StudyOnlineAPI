@@ -1,0 +1,84 @@
+2022-01-15 13:41:55.2822 Info Message Template Auto Format enabled
+2022-01-15 13:41:55.3313 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-15 13:41:55.4855 Info Adding target FileTarget(Name=fileTarget)
+2022-01-15 13:41:55.5420 Info Adding target FileTarget(Name=logfileCSV)
+2022-01-15 13:41:55.5525 Info Adding target DatabaseTarget(Name=logfileDB)
+2022-01-15 13:41:55.5681 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-01-15 13:41:55.7463 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=D:\Akash Development\2021\dot net 5\StudyOnline\StudyOnlineAPI\StudyOnlineAPI/Config/nlog.config
+2022-01-15 13:45:44.6323 Info Message Template Auto Format enabled
+2022-01-15 13:45:44.6662 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-15 13:45:44.7751 Info Adding target FileTarget(Name=fileTarget)
+2022-01-15 13:45:44.8141 Info Adding target FileTarget(Name=logfileCSV)
+2022-01-15 13:45:44.8141 Info Adding target DatabaseTarget(Name=logfileDB)
+2022-01-15 13:45:44.8362 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-01-15 13:45:44.9285 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=D:\Akash Development\2021\dot net 5\StudyOnline\StudyOnlineAPI\StudyOnlineAPI/Config/nlog.config
+2022-01-15 13:45:58.4706 Error DatabaseTarget(Name=logfileDB): Error when writing to database. Exception: System.Data.SqlClient.SqlException (0x80131904): Invalid object name 'dbo.LogTable'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite, String methodName)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at NLog.Targets.DatabaseTarget.ExecuteDbCommandWithParameters(LogEventInfo logEvent, IDbConnection dbConnection, IDbTransaction dbTransaction)
+   at NLog.Targets.DatabaseTarget.WriteLogEventToDatabase(LogEventInfo logEvent, String connectionString)
+ClientConnectionId:a2d1920f-822a-4d0d-9ddc-2557a929a058
+Error Number:208,State:1,Class:16
+2022-01-15 13:46:40.4053 Info Message Template Auto Format enabled
+2022-01-15 13:46:40.4485 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-15 13:46:40.5953 Info Adding target FileTarget(Name=fileTarget)
+2022-01-15 13:46:40.6406 Info Adding target FileTarget(Name=logfileCSV)
+2022-01-15 13:46:40.6506 Info Adding target DatabaseTarget(Name=logfileDB)
+2022-01-15 13:46:40.6665 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-01-15 13:46:40.7614 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=D:\Akash Development\2021\dot net 5\StudyOnline\StudyOnlineAPI\StudyOnlineAPI/Config/nlog.config
+2022-01-15 13:47:16.0864 Info Message Template Auto Format enabled
+2022-01-15 13:47:16.1084 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-15 13:47:16.1713 Info Adding target FileTarget(Name=fileTarget)
+2022-01-15 13:47:16.1938 Info Adding target FileTarget(Name=logfileCSV)
+2022-01-15 13:47:16.1938 Info Adding target DatabaseTarget(Name=logfileDB)
+2022-01-15 13:47:16.2089 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-01-15 13:47:16.2562 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=D:\Akash Development\2021\dot net 5\StudyOnline\StudyOnlineAPI\StudyOnlineAPI/Config/nlog.config
+2022-01-15 13:56:24.8831 Info Message Template Auto Format enabled
+2022-01-15 13:56:24.9131 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-15 13:56:25.0187 Info Adding target FileTarget(Name=fileTarget)
+2022-01-15 13:56:25.0530 Info Adding target FileTarget(Name=logfileCSV)
+2022-01-15 13:56:25.0530 Info Adding target DatabaseTarget(Name=logfileDB)
+2022-01-15 13:56:25.0766 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-01-15 13:56:25.1658 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=D:\Akash Development\2021\dot net 5\StudyOnline\StudyOnlineAPI\StudyOnlineAPI/Config/nlog.config
+2022-01-15 13:59:23.4074 Info Message Template Auto Format enabled
+2022-01-15 13:59:23.4357 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-15 13:59:23.5360 Info Adding target FileTarget(Name=fileTarget)
+2022-01-15 13:59:23.5737 Info Adding target FileTarget(Name=logfileCSV)
+2022-01-15 13:59:23.5801 Info Adding target DatabaseTarget(Name=logfileDB)
+2022-01-15 13:59:23.6018 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-01-15 13:59:23.7011 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=D:\Akash Development\2021\dot net 5\StudyOnline\StudyOnlineAPI\StudyOnlineAPI/Config/nlog.config
+2022-01-15 14:56:49.7556 Info Message Template Auto Format enabled
+2022-01-15 14:56:49.8303 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-15 14:56:49.9639 Info Adding target FileTarget(Name=fileTarget)
+2022-01-15 14:56:50.0031 Info Adding target FileTarget(Name=logfileCSV)
+2022-01-15 14:56:50.0031 Info Adding target DatabaseTarget(Name=logfileDB)
+2022-01-15 14:56:50.0354 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-01-15 14:56:50.1537 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=D:\Akash Development\2021\dot net 5\StudyOnline\StudyOnlineAPI\StudyOnlineAPI/Config/nlog.config
+2022-01-16 22:18:27.4891 Info Message Template Auto Format enabled
+2022-01-16 22:18:27.5097 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-16 22:18:27.5699 Info Adding target FileTarget(Name=fileTarget)
+2022-01-16 22:18:27.7546 Info Adding target FileTarget(Name=logfileCSV)
+2022-01-16 22:18:27.7546 Info Adding target DatabaseTarget(Name=logfileDB)
+2022-01-16 22:18:27.7725 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-01-16 22:18:27.8393 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=D:\Akash Development\2021\dot net 5\StudyOnline\StudyOnlineAPI\StudyOnlineAPI/Config/nlog.config
+2022-01-16 22:35:51.4254 Info Message Template Auto Format enabled
+2022-01-16 22:35:51.4467 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-16 22:35:51.5145 Info Adding target FileTarget(Name=fileTarget)
+2022-01-16 22:35:51.5373 Info Adding target FileTarget(Name=logfileCSV)
+2022-01-16 22:35:51.5373 Info Adding target DatabaseTarget(Name=logfileDB)
+2022-01-16 22:35:51.5511 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-01-16 22:35:51.5958 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=D:\Akash Development\2021\dot net 5\StudyOnline\StudyOnlineAPI\StudyOnlineAPI/Config/nlog.config
+2022-01-16 22:41:27.5120 Info Message Template Auto Format enabled
+2022-01-16 22:41:27.5294 Info Loading assembly: NLog.Web.AspNetCore
+2022-01-16 22:41:27.5924 Info Adding target FileTarget(Name=fileTarget)
+2022-01-16 22:41:27.6157 Info Adding target FileTarget(Name=logfileCSV)
+2022-01-16 22:41:27.6157 Info Adding target DatabaseTarget(Name=logfileDB)
+2022-01-16 22:41:27.6317 Info Adding target ColoredConsoleTarget(Name=consoleTarget)
+2022-01-16 22:41:27.6816 Info Validating config: TargetNames=consoleTarget, fileTarget, logfileCSV, logfileDB, ConfigItems=88, FilePath=D:\Akash Development\2021\dot net 5\StudyOnline\StudyOnlineAPI\StudyOnlineAPI/Config/nlog.config
